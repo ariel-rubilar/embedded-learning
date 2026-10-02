@@ -1,0 +1,45 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.piobuild/
+.pio/
+depend/
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.d
+*.su
+*.gcno
+*.gcda
+
+# Wokwi
+wokwi.vcd
+*.vcd
+.wokwi-cache/
+.flash/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+.vscode/c_cpp_properties.json
+.vscode/ipch/
+.vscode/browse.c_cpp_properties*
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/settings.json
+.vscode/*.code-snippets
+.vscode/monaco.db*
+.history/
+*.code-workspace
+
+# Editors / OS
+.idea/
+.vs/
+*.swp
+.DS_Store
+Thumbs.db
